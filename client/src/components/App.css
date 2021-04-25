@@ -1,0 +1,223 @@
+html {
+  height: 100%;
+}
+body, #root {
+  min-height: 100%;
+  margin: 0;
+  padding: .1px !important;
+}
+
+body.bg #root {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+
+  
+}
+/* Login css start*/
+.register-container .paper , .login-container .paper{
+  border: 1px solid #ccc;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #fff;
+  border-radius: 6px;
+  
+}
+.paper {
+  display: flex;
+  margin-top: 64px;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar {
+  margin: 8px;
+  background-color: #f50057 !important;
+}
+  .form {
+    width: 100%;
+    margin-top: 24px;}
+.submit {margin: 24px 0px 16px !important;}
+.social-icon{
+  position: absolute;
+  top:30;
+  right: 0;
+}
+
+  /* Login css end */
+
+  /* dashboard */
+.cardroot{
+  width: 100%;
+  /* background: red !important; */
+}
+  .heading-title{
+    text-align: left !important;
+  }
+  .heading-title span.MuiTypography-root.MuiCardHeader-title.MuiTypography-h5.MuiTypography-displayBlock {
+    font-size: 16px !important;
+}
+.heading-title span.MuiTypography-root.MuiCardHeader-subheader.MuiTypography-body1.MuiTypography-colorTextSecondary.MuiTypography-displayBlock{
+  font-size: 12px !important;
+}
+.head-title span.MuiTypography-root.MuiCardHeader-title.MuiTypography-h5.MuiTypography-displayBlock{
+  font-size: 18px !important;
+}
+  .head-title{
+    color:#fff;
+    text-align: left !important;
+  }
+  .head-title{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a5470+0,4c4177+100 */
+background: #2a5470; /* Old browsers */
+background: -moz-linear-gradient(top,  #2a5470 0%, #4c4177 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2a5470 0%,#4c4177 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2a5470 0%,#4c4177 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5470', endColorstr='#4c4177',GradientType=0 ); /* IE6-9 */
+
+  }
+  .appBarBg{
+    display: flex;
+    width: 100%;
+  }
+  .appBarBg .MuiAppBar-colorPrimary{
+    background: #2a5470; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2a5470 0%, #4c4177 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #2a5470 0%,#4c4177 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #2a5470 0%,#4c4177 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5470', endColorstr='#4c4177',GradientType=0 ); /* IE6-9 */
+  }
+
+  .scheduler-block .MuiToolbar-root
+    {
+      color: white !important;
+    background: #2a5470; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2a5470 0%, #4c4177 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #2a5470 0%,#4c4177 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #2a5470 0%,#4c4177 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a5470', endColorstr='#4c4177',GradientType=0 ); /* IE6-9 */
+    }
+    .scheduler-block .MuiIconButton-root{
+      color: white !important;
+    }
+    .scheduler-block .MuiButton-root{
+      color:white !important
+    }
+    .scheduler-block .MuiDialog-paper .MuiButton-label{
+      color:#333 !important
+    }
+    .scheduler-block .MuiDialog-paper .MuiTouchRipple-root{
+      color:#333 !important
+    }
+    .scheduler-block .MuiDrawer-paper.MuiDrawer-paperAnchorLeft .MuiIconButton-root svg{
+      color: #333 !important;
+    }
+  .userAction {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+.card-inner-block{
+  margin-bottom: 20px;
+}
+#scrollable-force-tabpanel-2 .MuiBox-root-22{
+
+  padding:24px 0 0 0 !important;
+ 
+}
+.listActive {
+  height: 50px;
+}
+
+.listActive .MuiListItemText-root{
+  position: absolute;
+  width: 93%;
+  height: 50px;
+}
+
+.listActive .MuiTypography-displayBlock {
+  display: block;
+  margin-left: 70px;
+  height: 50px;
+  line-height: 3;
+}
+
+.logo-block{
+  position: absolute;
+left: 10px;}
+img.logo{
+  width: 50px;
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px)  {
+  .MuiTab-root {
+    min-width: 130px  !important;
+   
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+  .MuiTab-root {
+    min-width: 100px  !important;
+  
+    padding: 6px 8px !important;
+    min-height: 40px !important;
+    min-width: 72px !important;
+
+}
+}
+@media only screen and (max-width: 768px) and (min-width: 600px)  {
+  .MuiTab-root {
+    min-width: 100px  !important;
+    padding: 6px 6px !important;
+    min-height: 30px !important;
+    min-width: 40px !important;
+}
+}
+#scrollable-force-tabpanel-2{
+  margin-top: 15px;
+}
+.addButton{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.loading-wrapper{
+  position: relative;
+}
+.loading-buttonProgress{
+  margin-top: -8px;
+  margin-left: -12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.error-message{
+  margin-bottom: 15px;
+}
+.loding-block{
+  display: flex;
+  height:100vh;
+  background-color: rgba(0, 0, 0, .9)
+}
